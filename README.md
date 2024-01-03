@@ -3,7 +3,7 @@
 
 This project delves into the concept of neural network quantization, specifically focusing on reducing the bit representation of weights in a neural network from 32 bits to 8 bits. The primary case study involves applying these techniques to a ResNet-18 model trained on the Imagenette dataset.
 
-link to notebook: https://colab.research.google.com/drive/15J-s3Dc5-nA4A7f5zguLfpONLCoEuEjJ?usp=sharing
+link to notebook: [https://colab.research.google.com/drive/15J-s3Dc5-nA4A7f5zguLfpONLCoEuEjJ?usp=sharing](https://colab.research.google.com/drive/15J-s3Dc5-nA4A7f5zguLfpONLCoEuEjJ#scrollTo=au0emUDxdJbU)
 
 link to failures notebook : https://colab.research.google.com/drive/15J-s3Dc5-nA4A7f5zguLfpONLCoEuEjJ?usp=sharing
 
