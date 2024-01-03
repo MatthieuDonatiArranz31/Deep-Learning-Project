@@ -42,12 +42,13 @@ But there also exist other model that at one hand are less precise but on the ot
 #### The problem:
 • Most modern deep neural networks are made up of billions of parameters. For example, the smallest LLaMA 2 has 7 billion parameters.  
 
-• When we inference a model, we need to load all its parameters in the memory, this means big models cannot be loaded easily on a standard PC or a smart phone.  
+• When we inference a model (to pass value through the model to get predictionsà, we need to load all its parameters in the memory, this means big models cannot be loaded easily on a standard PC or a smart phone, or just for exemple on Github account with a maximum 25MB files. 
 
 • Just like humans, computers are slow at computing floating-point operations compared to integer operations. Try to do 3 × 6 and compare it to 1.21 × 2.897, which one can you compute faster?
 
 #### The solution:
 • Quantization aims to reduce the total amount of bits required to represent each parameter, usually by converting floating-point  numbers into integers. This way, a model that normally occupies 10 GB can be “compressed” to less than 1 GB (depending on the type of quantization used). 
+I was able to upload the weights of the model with quantization (11MB) but not the ones of the regular one (44MB).
 https://youtu.be/KASuxB3XoYQ?si=k7ElBL6I_8iU2YXW&t=571
 During this project we will focus on Quantazing from 32bits to 8bits. 
 
